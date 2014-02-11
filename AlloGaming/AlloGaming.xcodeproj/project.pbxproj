@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C241BBC189BE3510095CF46 /* 1391198042_advancedsettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C241BB9189BE3510095CF46 /* 1391198042_advancedsettings.png */; };
+		0C241BBD189BE3510095CF46 /* 1391198076_preferences-desktop-gaming.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C241BBA189BE3510095CF46 /* 1391198076_preferences-desktop-gaming.png */; };
+		0C241BBE189BE3510095CF46 /* 1391198083_keditbookmarks.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C241BBB189BE3510095CF46 /* 1391198083_keditbookmarks.png */; };
+		0C241BC0189BEC700095CF46 /* jeux-video-photo-1440x900.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C241BBF189BEC6F0095CF46 /* jeux-video-photo-1440x900.jpg */; };
 		0C84809E1851DF8700FA57F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C84809D1851DF8700FA57F1 /* Foundation.framework */; };
 		0C8480A01851DF8700FA57F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C84809F1851DF8700FA57F1 /* CoreGraphics.framework */; };
 		0C8480A21851DF8700FA57F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8480A11851DF8700FA57F1 /* UIKit.framework */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C241BB9189BE3510095CF46 /* 1391198042_advancedsettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1391198042_advancedsettings.png; sourceTree = "<group>"; };
+		0C241BBA189BE3510095CF46 /* 1391198076_preferences-desktop-gaming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1391198076_preferences-desktop-gaming.png"; sourceTree = "<group>"; };
+		0C241BBB189BE3510095CF46 /* 1391198083_keditbookmarks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1391198083_keditbookmarks.png; sourceTree = "<group>"; };
+		0C241BBF189BEC6F0095CF46 /* jeux-video-photo-1440x900.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jeux-video-photo-1440x900.jpg"; sourceTree = "<group>"; };
 		0C84809A1851DF8700FA57F1 /* AlloGaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlloGaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C84809D1851DF8700FA57F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C84809F1851DF8700FA57F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +87,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C241BB8189BE30E0095CF46 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				0C241BBF189BEC6F0095CF46 /* jeux-video-photo-1440x900.jpg */,
+				0C241BB9189BE3510095CF46 /* 1391198042_advancedsettings.png */,
+				0C241BBA189BE3510095CF46 /* 1391198076_preferences-desktop-gaming.png */,
+				0C241BBB189BE3510095CF46 /* 1391198083_keditbookmarks.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		0C8480911851DF8700FA57F1 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +131,7 @@
 		0C8480A31851DF8700FA57F1 /* AlloGaming */ = {
 			isa = PBXGroup;
 			children = (
+				0C241BB8189BE30E0095CF46 /* Icons */,
 				0C8480AC1851DF8800FA57F1 /* AppDelegate.h */,
 				0C8480AD1851DF8800FA57F1 /* AppDelegate.m */,
 				0C8480AF1851DF8800FA57F1 /* Main.storyboard */,
@@ -229,7 +249,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C8480B61851DF8800FA57F1 /* Images.xcassets in Resources */,
+				0C241BBD189BE3510095CF46 /* 1391198076_preferences-desktop-gaming.png in Resources */,
+				0C241BC0189BEC700095CF46 /* jeux-video-photo-1440x900.jpg in Resources */,
 				0C8480A81851DF8700FA57F1 /* InfoPlist.strings in Resources */,
+				0C241BBC189BE3510095CF46 /* 1391198042_advancedsettings.png in Resources */,
+				0C241BBE189BE3510095CF46 /* 1391198083_keditbookmarks.png in Resources */,
 				0C8480B11851DF8800FA57F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +484,7 @@
 				0C8480CE1851DF8800FA57F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C8480CF1851DF8800FA57F1 /* Build configuration list for PBXNativeTarget "AlloGamingTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +493,7 @@
 				0C8480D11851DF8800FA57F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
